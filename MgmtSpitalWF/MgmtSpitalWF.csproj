@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Blazorise.Charts.1.1.5\build\Blazorise.Charts.props" Condition="Exists('..\packages\Blazorise.Charts.1.1.5\build\Blazorise.Charts.props')" />
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -12,6 +13,8 @@
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -63,14 +66,17 @@
     <Reference Include="WindowsFormsIntegration" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="ModulPrincipal.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="ModulPrincipal.Designer.cs">
+      <DependentUpon>ModulPrincipal.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="ModulPrincipal.resx">
+      <DependentUpon>ModulPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -96,9 +102,61 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Autentificare\" />
-    <Folder Include="Imagini\" />
     <Folder Include="Module\" />
     <Folder Include="Pagini\" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Imagini\add_20px.png" />
+    <Content Include="Imagini\available_updates_20px.png" />
+    <Content Include="Imagini\businessman_120px.png" />
+    <Content Include="Imagini\clinic_120px.png" />
+    <Content Include="Imagini\clinic_20px.png" />
+    <Content Include="Imagini\dashboard_20px.png" />
+    <Content Include="Imagini\delete_20px.png" />
+    <Content Include="Imagini\doctors_bag_20px.png" />
+    <Content Include="Imagini\edit_20px.png" />
+    <Content Include="Imagini\email_sign_20px.png" />
+    <Content Include="Imagini\eye_20px.png" />
+    <Content Include="Imagini\handicapped_20px.png" />
+    <Content Include="Imagini\health_checkup_20px.png" />
+    <Content Include="Imagini\health_checkup_20px1.png" />
+    <Content Include="Imagini\health_checkup_21px.png" />
+    <Content Include="Imagini\hide_20px.png" />
+    <Content Include="Imagini\icons8_clinic_16.png" />
+    <Content Include="Imagini\icons8_clinic_32.png" />
+    <Content Include="Imagini\icons8_doctors_bag_16.png" />
+    <Content Include="Imagini\icons8_doctors_bag_32.png" />
+    <Content Include="Imagini\icons8_handicapped1_16.png" />
+    <Content Include="Imagini\icons8_handicapped1_32.png" />
+    <Content Include="Imagini\icons8_handicapped_16.png" />
+    <Content Include="Imagini\icons8_user_16.png" />
+    <Content Include="Imagini\icons8_user_32.png" />
+    <Content Include="Imagini\icons8_visit_16.png" />
+    <Content Include="Imagini\icons8_visit_32.png" />
+    <Content Include="Imagini\Logout_20px.png" />
+    <Content Include="Imagini\Mdemy Medical.png" />
+    <Content Include="Imagini\name_20px.png" />
+    <Content Include="Imagini\password_20px.png" />
+    <Content Include="Imagini\physiotherapy_100px.png" />
+    <Content Include="Imagini\plus_math_100px.png" />
+    <Content Include="Imagini\profile_20px.png" />
+    <Content Include="Imagini\search_20px.png" />
+    <Content Include="Imagini\stethoscope_120px.png" />
+    <Content Include="Imagini\stethoscope_20px.png" />
+    <Content Include="Imagini\stethoscope_50p.png" />
+    <Content Include="Imagini\stethoscope_50px.png" />
+    <Content Include="Imagini\trash_can_20px.png" />
+    <Content Include="Imagini\upload_20px.png" />
+    <Content Include="Imagini\upward_arrow_20px.png" />
+    <Content Include="Imagini\user_20px.png" />
+    <Content Include="Imagini\visit_20px.png" />
+    <Content Include="Imagini\waste_20px.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Blazorise.Charts.1.1.5\build\Blazorise.Charts.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Blazorise.Charts.1.1.5\build\Blazorise.Charts.props'))" />
+  </Target>
 </Project>

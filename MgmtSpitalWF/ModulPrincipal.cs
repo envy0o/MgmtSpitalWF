@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace MgmtSpitalWF
 {
-    public partial class Form1 : Form
+    public partial class ModulPrincipal : Form
     {
-        public Form1()
+        public ModulPrincipal()
         {
             InitializeComponent();
         }
