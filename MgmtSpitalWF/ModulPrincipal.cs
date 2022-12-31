@@ -16,5 +16,15 @@ namespace MgmtSpitalWF
         {
             InitializeComponent();
         }
+
+        private void btnDeconectare_Click(object sender, EventArgs e)
+        {
+
+            if (MessageBox.Show("Ieșire Aplicație?", "Ieșire", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+            {
+                Application.Exit();
+            }
+        }
+
     }
 }

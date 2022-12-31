@@ -16,7 +16,7 @@ namespace MgmtSpitalWF
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new ModulPrincipal());
+            Application.Run(new Autentificare.Logare());
         }
     }
 }
