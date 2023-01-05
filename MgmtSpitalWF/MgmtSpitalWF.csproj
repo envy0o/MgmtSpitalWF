@@ -74,19 +74,118 @@
       <DependentUpon>Logare.cs</DependentUpon>
     </Compile>
     <Compile Include="BazaDeDate.cs" />
+    <Compile Include="Module\ModulDoctor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Module\ModulDoctor.Designer.cs">
+      <DependentUpon>ModulDoctor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Module\ModulPacient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Module\ModulPacient.Designer.cs">
+      <DependentUpon>ModulPacient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Module\ModulPacient_Programare.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Module\ModulPacient_Programare.Designer.cs">
+      <DependentUpon>ModulPacient_Programare.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Module\ModulSpital.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Module\ModulSpital.Designer.cs">
+      <DependentUpon>ModulSpital.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Module\ModulUtilizator.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Module\ModulUtilizator.Designer.cs">
+      <DependentUpon>ModulUtilizator.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Module\ModulProgramari.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Module\ModulProgramari.Designer.cs">
+      <DependentUpon>ModulProgramari.cs</DependentUpon>
+    </Compile>
     <Compile Include="ModulPrincipal.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="ModulPrincipal.Designer.cs">
       <DependentUpon>ModulPrincipal.cs</DependentUpon>
     </Compile>
+    <Compile Include="Pagini\Doctori.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pagini\Doctori.Designer.cs">
+      <DependentUpon>Doctori.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pagini\Pacienti.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pagini\Pacienti.Designer.cs">
+      <DependentUpon>Pacienti.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pagini\Dashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pagini\Dashboard.Designer.cs">
+      <DependentUpon>Dashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pagini\Utilizatori.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pagini\Utilizatori.Designer.cs">
+      <DependentUpon>Utilizatori.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pagini\Vizite.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pagini\Vizite.Designer.cs">
+      <DependentUpon>Vizite.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Autentificare\Logare.resx">
       <DependentUpon>Logare.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Module\ModulDoctor.resx">
+      <DependentUpon>ModulDoctor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Module\ModulPacient.resx">
+      <DependentUpon>ModulPacient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Module\ModulPacient_Programare.resx">
+      <DependentUpon>ModulPacient_Programare.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Module\ModulProgramari.resx">
+      <DependentUpon>ModulProgramari.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Module\ModulSpital.resx">
+      <DependentUpon>ModulSpital.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Module\ModulUtilizator.resx">
+      <DependentUpon>ModulUtilizator.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ModulPrincipal.resx">
       <DependentUpon>ModulPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pagini\Dashboard.resx">
+      <DependentUpon>Dashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pagini\Doctori.resx">
+      <DependentUpon>Doctori.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pagini\Pacienti.resx">
+      <DependentUpon>Pacienti.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pagini\Utilizatori.resx">
+      <DependentUpon>Utilizatori.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pagini\Vizite.resx">
+      <DependentUpon>Vizite.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -112,10 +211,7 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Module\" />
-    <Folder Include="Pagini\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Content Include="Imagini\add_20px.png" />
     <Content Include="Imagini\available_updates_20px.png" />

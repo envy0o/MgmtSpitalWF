@@ -31,7 +31,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ModulPrincipal));
             this.panelSlide = new System.Windows.Forms.Panel();
             this.btnDeconectare = new System.Windows.Forms.Button();
-            this.btnClinic = new System.Windows.Forms.Button();
+            this.btnSpital = new System.Windows.Forms.Button();
             this.btnUsers = new System.Windows.Forms.Button();
             this.btnDoctors = new System.Windows.Forms.Button();
             this.btnVisit = new System.Windows.Forms.Button();
@@ -45,7 +45,7 @@
             // 
             this.panelSlide.BackColor = System.Drawing.Color.SandyBrown;
             this.panelSlide.Controls.Add(this.btnDeconectare);
-            this.panelSlide.Controls.Add(this.btnClinic);
+            this.panelSlide.Controls.Add(this.btnSpital);
             this.panelSlide.Controls.Add(this.btnUsers);
             this.panelSlide.Controls.Add(this.btnDoctors);
             this.panelSlide.Controls.Add(this.btnVisit);
@@ -75,22 +75,23 @@
             this.btnDeconectare.UseVisualStyleBackColor = false;
             this.btnDeconectare.Click += new System.EventHandler(this.btnDeconectare_Click);
             // 
-            // btnClinic
+            // btnSpital
             // 
-            this.btnClinic.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnClinic.BackColor = System.Drawing.Color.DarkOrange;
-            this.btnClinic.FlatAppearance.BorderSize = 0;
-            this.btnClinic.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnClinic.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnClinic.ForeColor = System.Drawing.Color.White;
-            this.btnClinic.Image = ((System.Drawing.Image)(resources.GetObject("btnClinic.Image")));
-            this.btnClinic.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnClinic.Location = new System.Drawing.Point(3, 195);
-            this.btnClinic.Name = "btnClinic";
-            this.btnClinic.Size = new System.Drawing.Size(137, 33);
-            this.btnClinic.TabIndex = 13;
-            this.btnClinic.Text = "Clinică";
-            this.btnClinic.UseVisualStyleBackColor = false;
+            this.btnSpital.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnSpital.BackColor = System.Drawing.Color.DarkOrange;
+            this.btnSpital.FlatAppearance.BorderSize = 0;
+            this.btnSpital.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSpital.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSpital.ForeColor = System.Drawing.Color.White;
+            this.btnSpital.Image = ((System.Drawing.Image)(resources.GetObject("btnSpital.Image")));
+            this.btnSpital.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnSpital.Location = new System.Drawing.Point(3, 195);
+            this.btnSpital.Name = "btnSpital";
+            this.btnSpital.Size = new System.Drawing.Size(137, 33);
+            this.btnSpital.TabIndex = 13;
+            this.btnSpital.Text = "Clinică";
+            this.btnSpital.UseVisualStyleBackColor = false;
+            this.btnSpital.Click += new System.EventHandler(this.btnSpital_Click);
             // 
             // btnUsers
             // 
@@ -108,6 +109,7 @@
             this.btnUsers.TabIndex = 12;
             this.btnUsers.Text = "Utilizatori";
             this.btnUsers.UseVisualStyleBackColor = false;
+            this.btnUsers.Click += new System.EventHandler(this.btnUsers_Click);
             // 
             // btnDoctors
             // 
@@ -125,6 +127,7 @@
             this.btnDoctors.TabIndex = 11;
             this.btnDoctors.Text = "Doctori";
             this.btnDoctors.UseVisualStyleBackColor = false;
+            this.btnDoctors.Click += new System.EventHandler(this.btnDoctors_Click);
             // 
             // btnVisit
             // 
@@ -142,6 +145,7 @@
             this.btnVisit.TabIndex = 10;
             this.btnVisit.Text = "Vizite";
             this.btnVisit.UseVisualStyleBackColor = false;
+            this.btnVisit.Click += new System.EventHandler(this.btnVisit_Click);
             // 
             // btnPatient
             // 
@@ -159,6 +163,7 @@
             this.btnPatient.TabIndex = 9;
             this.btnPatient.Text = "Pacienți";
             this.btnPatient.UseVisualStyleBackColor = false;
+            this.btnPatient.Click += new System.EventHandler(this.btnPatient_Click);
             // 
             // btnDash
             // 
@@ -177,6 +182,7 @@
             this.btnDash.Text = "Tablou de bord";
             this.btnDash.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnDash.UseVisualStyleBackColor = false;
+            this.btnDash.Click += new System.EventHandler(this.btnDash_Click);
             // 
             // panelChild
             // 
@@ -197,7 +203,7 @@
             this.Controls.Add(this.panelSlide);
             this.DoubleBuffered = true;
             this.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "ModulPrincipal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -211,7 +217,7 @@
 
         private System.Windows.Forms.Panel panelSlide;
         private System.Windows.Forms.Button btnDeconectare;
-        private System.Windows.Forms.Button btnClinic;
+        private System.Windows.Forms.Button btnSpital;
         private System.Windows.Forms.Button btnUsers;
         private System.Windows.Forms.Button btnDoctors;
         private System.Windows.Forms.Button btnVisit;
