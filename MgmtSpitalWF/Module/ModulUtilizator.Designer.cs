@@ -52,11 +52,11 @@
             // 
             // btnSave
             // 
-            this.btnSave.BackColor = System.Drawing.Color.DarkOrange;
+            this.btnSave.BackColor = System.Drawing.Color.BurlyWood;
             this.btnSave.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSave.ForeColor = System.Drawing.Color.White;
             this.btnSave.Location = new System.Drawing.Point(809, 350);
-            this.btnSave.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnSave.Margin = new System.Windows.Forms.Padding(4);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(75, 36);
             this.btnSave.TabIndex = 49;
@@ -68,7 +68,7 @@
             this.btnCancel.BackColor = System.Drawing.Color.AntiqueWhite;
             this.btnCancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCancel.Location = new System.Drawing.Point(715, 350);
-            this.btnCancel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnCancel.Margin = new System.Windows.Forms.Padding(4);
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(75, 36);
             this.btnCancel.TabIndex = 50;
@@ -83,7 +83,7 @@
             this.txtNote.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtNote.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.txtNote.Location = new System.Drawing.Point(128, 244);
-            this.txtNote.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtNote.Margin = new System.Windows.Forms.Padding(4);
             this.txtNote.MouseState = MaterialSkin.MouseState.HOVER;
             this.txtNote.Name = "txtNote";
             this.txtNote.Size = new System.Drawing.Size(235, 111);
@@ -95,7 +95,7 @@
             this.dtCreate.CustomFormat = "dddd, MMM dd, yyyy";
             this.dtCreate.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dtCreate.Location = new System.Drawing.Point(562, 263);
-            this.dtCreate.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dtCreate.Margin = new System.Windows.Forms.Padding(4);
             this.dtCreate.Name = "dtCreate";
             this.dtCreate.Size = new System.Drawing.Size(335, 22);
             this.dtCreate.TabIndex = 47;
@@ -149,7 +149,7 @@
             "Male",
             "Female"});
             this.cbGender.Location = new System.Drawing.Point(562, 82);
-            this.cbGender.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cbGender.Margin = new System.Windows.Forms.Padding(4);
             this.cbGender.MaxDropDownItems = 4;
             this.cbGender.MouseState = MaterialSkin.MouseState.OUT;
             this.cbGender.Name = "cbGender";
@@ -166,7 +166,7 @@
             this.txtEmail.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.txtEmail.LeadingIcon = null;
             this.txtEmail.Location = new System.Drawing.Point(562, 200);
-            this.txtEmail.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtEmail.Margin = new System.Windows.Forms.Padding(4);
             this.txtEmail.MaxLength = 50;
             this.txtEmail.MouseState = MaterialSkin.MouseState.OUT;
             this.txtEmail.Multiline = false;
@@ -185,7 +185,7 @@
             this.txtPhone.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.txtPhone.LeadingIcon = null;
             this.txtPhone.Location = new System.Drawing.Point(562, 142);
-            this.txtPhone.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtPhone.Margin = new System.Windows.Forms.Padding(4);
             this.txtPhone.MaxLength = 50;
             this.txtPhone.MouseState = MaterialSkin.MouseState.OUT;
             this.txtPhone.Multiline = false;
@@ -204,7 +204,7 @@
             this.txtName.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.txtName.LeadingIcon = null;
             this.txtName.Location = new System.Drawing.Point(562, 17);
-            this.txtName.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtName.Margin = new System.Windows.Forms.Padding(4);
             this.txtName.MaxLength = 50;
             this.txtName.MouseState = MaterialSkin.MouseState.OUT;
             this.txtName.Multiline = false;
@@ -274,7 +274,7 @@
             // 
             this.picPhoto.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.picPhoto.Location = new System.Drawing.Point(158, 13);
-            this.picPhoto.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.picPhoto.Margin = new System.Windows.Forms.Padding(4);
             this.picPhoto.Name = "picPhoto";
             this.picPhoto.Size = new System.Drawing.Size(154, 145);
             this.picPhoto.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
@@ -294,7 +294,7 @@
             // ModulUtilizator
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
-            this.BackColor = System.Drawing.Color.Linen;
+            this.BackColor = System.Drawing.Color.Wheat;
             this.ClientSize = new System.Drawing.Size(910, 410);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.btnSave);
@@ -315,8 +315,8 @@
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "ModulUtilizator";
             this.Text = "ModulUtilizator";
             ((System.ComponentModel.ISupportInitialize)(this.picPhoto)).EndInit();

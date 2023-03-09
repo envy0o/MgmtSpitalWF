@@ -54,7 +54,7 @@
             this.panelSlide.Dock = System.Windows.Forms.DockStyle.Left;
             this.panelSlide.Location = new System.Drawing.Point(0, 0);
             this.panelSlide.Name = "panelSlide";
-            this.panelSlide.Size = new System.Drawing.Size(145, 661);
+            this.panelSlide.Size = new System.Drawing.Size(156, 661);
             this.panelSlide.TabIndex = 0;
             // 
             // btnDeconectare
@@ -67,7 +67,7 @@
             this.btnDeconectare.ForeColor = System.Drawing.Color.White;
             this.btnDeconectare.Image = ((System.Drawing.Image)(resources.GetObject("btnDeconectare.Image")));
             this.btnDeconectare.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnDeconectare.Location = new System.Drawing.Point(3, 625);
+            this.btnDeconectare.Location = new System.Drawing.Point(12, 625);
             this.btnDeconectare.Name = "btnDeconectare";
             this.btnDeconectare.Size = new System.Drawing.Size(137, 33);
             this.btnDeconectare.TabIndex = 14;
@@ -85,7 +85,7 @@
             this.btnSpital.ForeColor = System.Drawing.Color.White;
             this.btnSpital.Image = ((System.Drawing.Image)(resources.GetObject("btnSpital.Image")));
             this.btnSpital.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSpital.Location = new System.Drawing.Point(3, 195);
+            this.btnSpital.Location = new System.Drawing.Point(12, 198);
             this.btnSpital.Name = "btnSpital";
             this.btnSpital.Size = new System.Drawing.Size(137, 33);
             this.btnSpital.TabIndex = 13;
@@ -103,7 +103,7 @@
             this.btnUsers.ForeColor = System.Drawing.Color.White;
             this.btnUsers.Image = ((System.Drawing.Image)(resources.GetObject("btnUsers.Image")));
             this.btnUsers.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnUsers.Location = new System.Drawing.Point(3, 156);
+            this.btnUsers.Location = new System.Drawing.Point(12, 159);
             this.btnUsers.Name = "btnUsers";
             this.btnUsers.Size = new System.Drawing.Size(137, 33);
             this.btnUsers.TabIndex = 12;
@@ -121,7 +121,7 @@
             this.btnDoctors.ForeColor = System.Drawing.Color.White;
             this.btnDoctors.Image = ((System.Drawing.Image)(resources.GetObject("btnDoctors.Image")));
             this.btnDoctors.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnDoctors.Location = new System.Drawing.Point(3, 117);
+            this.btnDoctors.Location = new System.Drawing.Point(12, 120);
             this.btnDoctors.Name = "btnDoctors";
             this.btnDoctors.Size = new System.Drawing.Size(137, 33);
             this.btnDoctors.TabIndex = 11;
@@ -139,7 +139,7 @@
             this.btnVisit.ForeColor = System.Drawing.Color.White;
             this.btnVisit.Image = ((System.Drawing.Image)(resources.GetObject("btnVisit.Image")));
             this.btnVisit.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnVisit.Location = new System.Drawing.Point(3, 78);
+            this.btnVisit.Location = new System.Drawing.Point(12, 81);
             this.btnVisit.Name = "btnVisit";
             this.btnVisit.Size = new System.Drawing.Size(137, 33);
             this.btnVisit.TabIndex = 10;
@@ -157,7 +157,7 @@
             this.btnPatient.ForeColor = System.Drawing.Color.White;
             this.btnPatient.Image = ((System.Drawing.Image)(resources.GetObject("btnPatient.Image")));
             this.btnPatient.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnPatient.Location = new System.Drawing.Point(3, 39);
+            this.btnPatient.Location = new System.Drawing.Point(12, 42);
             this.btnPatient.Name = "btnPatient";
             this.btnPatient.Size = new System.Drawing.Size(137, 33);
             this.btnPatient.TabIndex = 9;
@@ -175,7 +175,7 @@
             this.btnDash.ForeColor = System.Drawing.Color.White;
             this.btnDash.Image = ((System.Drawing.Image)(resources.GetObject("btnDash.Image")));
             this.btnDash.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnDash.Location = new System.Drawing.Point(3, 0);
+            this.btnDash.Location = new System.Drawing.Point(12, 3);
             this.btnDash.Name = "btnDash";
             this.btnDash.Size = new System.Drawing.Size(137, 33);
             this.btnDash.TabIndex = 8;
@@ -187,7 +187,7 @@
             // panelChild
             // 
             this.panelChild.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelChild.Location = new System.Drawing.Point(145, 0);
+            this.panelChild.Location = new System.Drawing.Point(156, 0);
             this.panelChild.MinimumSize = new System.Drawing.Size(1139, 661);
             this.panelChild.Name = "panelChild";
             this.panelChild.Size = new System.Drawing.Size(1139, 661);

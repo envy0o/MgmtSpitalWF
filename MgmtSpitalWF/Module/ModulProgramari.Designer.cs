@@ -292,7 +292,7 @@
             // 
             // btnSave
             // 
-            this.btnSave.BackColor = System.Drawing.Color.DarkOrange;
+            this.btnSave.BackColor = System.Drawing.Color.BurlyWood;
             this.btnSave.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSave.ForeColor = System.Drawing.Color.White;
             this.btnSave.Location = new System.Drawing.Point(823, 362);
@@ -316,7 +316,7 @@
             // ModulProgramari
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
-            this.BackColor = System.Drawing.Color.Linen;
+            this.BackColor = System.Drawing.Color.Wheat;
             this.ClientSize = new System.Drawing.Size(910, 410);
             this.Controls.Add(this.btnSave);
             this.Controls.Add(this.btnCancel);
@@ -340,9 +340,9 @@
             this.Controls.Add(this.txtReason);
             this.Controls.Add(this.label9);
             this.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
             this.Name = "ModulProgramari";
-            this.Text = "ModulVizite";
+            this.Text = "ModulProgramari";
             this.ResumeLayout(false);
             this.PerformLayout();
 

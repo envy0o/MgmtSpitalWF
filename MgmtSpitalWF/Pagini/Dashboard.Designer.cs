@@ -59,10 +59,10 @@
             this.lblPatientTD = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.panel9 = new System.Windows.Forms.Panel();
-            this.panel11 = new System.Windows.Forms.Panel();
             this.chartWeakly = new LiveCharts.WinForms.CartesianChart();
+            this.panel9 = new System.Windows.Forms.Panel();
             this.chartMonthly = new LiveCharts.WinForms.CartesianChart();
+            this.panel11 = new System.Windows.Forms.Panel();
             this.panel12 = new System.Windows.Forms.Panel();
             this.dgvVisits = new System.Windows.Forms.DataGridView();
             this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -414,22 +414,6 @@
             this.panel1.Size = new System.Drawing.Size(562, 204);
             this.panel1.TabIndex = 15;
             // 
-            // panel9
-            // 
-            this.panel9.Controls.Add(this.chartMonthly);
-            this.panel9.Location = new System.Drawing.Point(571, 456);
-            this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(565, 204);
-            this.panel9.TabIndex = 16;
-            // 
-            // panel11
-            // 
-            this.panel11.BackColor = System.Drawing.Color.PeachPuff;
-            this.panel11.Location = new System.Drawing.Point(3, 141);
-            this.panel11.Name = "panel11";
-            this.panel11.Size = new System.Drawing.Size(1133, 56);
-            this.panel11.TabIndex = 17;
-            // 
             // chartWeakly
             // 
             this.chartWeakly.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -440,6 +424,14 @@
             this.chartWeakly.TabIndex = 1;
             this.chartWeakly.Text = "cartesianChart1";
             // 
+            // panel9
+            // 
+            this.panel9.Controls.Add(this.chartMonthly);
+            this.panel9.Location = new System.Drawing.Point(571, 456);
+            this.panel9.Name = "panel9";
+            this.panel9.Size = new System.Drawing.Size(565, 204);
+            this.panel9.TabIndex = 16;
+            // 
             // chartMonthly
             // 
             this.chartMonthly.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -448,6 +440,14 @@
             this.chartMonthly.Size = new System.Drawing.Size(565, 204);
             this.chartMonthly.TabIndex = 2;
             this.chartMonthly.Text = "cartesianChart2";
+            // 
+            // panel11
+            // 
+            this.panel11.BackColor = System.Drawing.Color.PeachPuff;
+            this.panel11.Location = new System.Drawing.Point(3, 141);
+            this.panel11.Name = "panel11";
+            this.panel11.Size = new System.Drawing.Size(1133, 56);
+            this.panel11.TabIndex = 17;
             // 
             // panel12
             // 
@@ -460,13 +460,13 @@
             // dgvVisits
             // 
             this.dgvVisits.AllowUserToAddRows = false;
-            this.dgvVisits.BackgroundColor = System.Drawing.Color.White;
+            this.dgvVisits.BackgroundColor = System.Drawing.Color.Linen;
             this.dgvVisits.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
             dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle1.BackColor = System.Drawing.Color.DarkOrange;
             dataGridViewCellStyle1.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle1.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.DarkKhaki;
             dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.dgvVisits.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
@@ -506,7 +506,7 @@
             this.dataGridViewTextBoxColumn2.HeaderText = "id";
             this.dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
             this.dataGridViewTextBoxColumn2.Visible = false;
-            this.dataGridViewTextBoxColumn2.Width = 47;
+            this.dataGridViewTextBoxColumn2.Width = 44;
             // 
             // dataGridViewTextBoxColumn3
             // 
@@ -527,7 +527,7 @@
             this.dataGridViewTextBoxColumn5.HeaderText = "Pid";
             this.dataGridViewTextBoxColumn5.Name = "dataGridViewTextBoxColumn5";
             this.dataGridViewTextBoxColumn5.Visible = false;
-            this.dataGridViewTextBoxColumn5.Width = 57;
+            this.dataGridViewTextBoxColumn5.Width = 51;
             // 
             // Patient
             // 
@@ -545,7 +545,7 @@
             this.dataGridViewTextBoxColumn6.HeaderText = "Did";
             this.dataGridViewTextBoxColumn6.Name = "dataGridViewTextBoxColumn6";
             this.dataGridViewTextBoxColumn6.Visible = false;
-            this.dataGridViewTextBoxColumn6.Width = 59;
+            this.dataGridViewTextBoxColumn6.Width = 53;
             // 
             // Doctor
             // 
@@ -596,7 +596,7 @@
             this.Controls.Add(this.panel10);
             this.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Dashboard";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Dashboard";

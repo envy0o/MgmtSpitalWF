@@ -16,5 +16,20 @@ namespace MgmtSpitalWF.Module
         {
             InitializeComponent();
         }
+
+        private void btnCancel_Click(object sender, EventArgs e)
+        {
+            Clear();
+        }
+
+        public void Clear()
+        {
+            picLogo.Image = null;
+            txtAddress.Clear();
+            txtEmail.Clear();
+            txtName.Clear();
+            txtPhone.Clear();
+            dtCreate.Value = DateTime.Now;
+        }
     }
 }
